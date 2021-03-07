@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+}
+
+.outer-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #19a2ae;
+    position: relative;
+    overflow: hidden;
+}
+
+.right-circle {
+    position: absolute;
+    right: -12rem;
+    top: 35rem;
+}
+
+.left-circle {
+    position: absolute;
+    left: -8rem;
+    bottom: 33rem;
+}
+
+.inner-container {
+    background-color: #f0f0f0;
+    border-radius: 5%;
+    position: relative;
+    margin: auto;
+    top: 30%;
+    width: 370px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.inner-div-pic {
+    width: 100%;
+}
+
+.inner-div-profile-pic {
+    position: relative;
+    border-radius: 50%;
+    bottom: 3rem;
+    border: 5px solid #f0f0f0;
+}
+
+.name-info p {
+    color: #333;
+    font-weight: 700;
+    margin: auto;
+    width: 50%;
+    line-height: 1.8;
+    position: relative;
+    bottom: 25px;
+}
+
+.name-info span {
+    font-weight: 400;
+    color: #969696;
+}
+
+hr {
+    border-style: solid none none;
+    color: #cecece;
+}
+
+.bot-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.followers, .likes, .photos {
+    position: relative;
+    padding-top: 20px;
+    font-size: 21px;
+    width: 19%;
+    line-height: 1;
+    font-weight: 700;
+    color: #333;
+    
+}
+
+.bot-info span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #969696;
+}
+
+.attribution {
+    font-size: 13px;
+    margin-top: 20rem;
+}
+
+@media (max-width: 900px) {
+    .right-circle {
+        position: absolute;
+        top: 576px;
+        left: 8rem;
+    }
+
+    .left-circle {
+        position: absolute;
+        bottom: 30rem;
+        left: -20rem;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .right-circle {
+        position: absolute;
+        top: 576px;
+        left: 6rem;
+    }
+
+    .left-circle {
+        position: absolute;
+        bottom: 30rem;
+        left: -30rem;
+    }
+
+}
+
